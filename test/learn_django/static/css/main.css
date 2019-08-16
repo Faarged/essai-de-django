@@ -1,0 +1,25 @@
+html{
+margin: 0;
+padding: 0;
+}
+
+body{
+margin: 0;
+padding:0;
+}
+h1{
+color: red;
+}
+a{
+color: green;
+}
+a:hover{
+color: red;
+text-decoration: none;
+}
+p{
+border: solid 1px green;
+box-shadow: 2px 2px 5px red;
+ padding: 0.5em;
+}
+

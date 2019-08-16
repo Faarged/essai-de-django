@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title%}Voici la date{% endblock %}
+{% block head %}Huh!?{% endblock %}
+{% block content %}
+<h1>Bienvenue à Orgrimmar voyageur</h1>
+<p>Nous sommes le : {{ date }} et l'alliance faiblit de jour en jour</p>
+<p>Durotar est magnifique aujourd'hui: </p>
+<img src="{% static 'first_app/durotar.jpg' %}" alt="Notre belle terre"/>
+{% endblock %}
