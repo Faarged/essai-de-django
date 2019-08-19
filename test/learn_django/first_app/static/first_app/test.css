@@ -1,0 +1,23 @@
+/*gallerie*/
+.box{
+  display: flex;
+  flex-flow: row wrap;
+  height:auto;
+  width:auto;
+  max-width:20%;
+  min-width: 20%;
+  max-height:200px;
+  margin:1.5em;
+  overflow:hidden;
+
+}
+.box img{
+  display:flex;
+  flex-flow: row wrap;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+#gallerie{
+  
+}
